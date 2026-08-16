@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --clarear: rgba(255, 255, 255, 0.15);
+    --clarearAzul: rgba(0, 0, 133, 0.8);
+    --color0: white;
+    --color1: rgb(0, 0, 133);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}

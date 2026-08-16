@@ -1,0 +1,50 @@
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+table {
+    border-collapse: collapse;
+    border: dashed 1px black;
+    width: 100%;
+}
+
+thead {
+    color: var(--color0);
+    background-color: var(--color1);
+}
+
+th {
+    border: dashed 1px black;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border: dashed 1px black;
+}
+
+.btn-new-user {
+    margin-top: 50px;
+
+    border: 0;
+    background-color: var(--color1);
+    color: var(--color0);
+
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.btn-new-user:hover {
+    cursor: pointer;
+    background-color: var(--clarearAzul);
+}
